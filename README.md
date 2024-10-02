@@ -1,4 +1,4 @@
-# BIOS Combine
+# CombineBIOS
 Combine split HI-LO/Even-Odd BIOS binaries into one binary file.
 
 Usage: `merge lo.bin hi.bin out.bin`

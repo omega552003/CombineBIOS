@@ -1,8 +1,8 @@
-EXE = combineBIOS
+EXE = biosCombine
 CFLAGS = -O2
 LDFLAGS =
 
-$(EXE):	combineBIOS.c
+$(EXE):	biosCombine.c
 	$(CC) $^ $(CFLAGS) $(LDFLAGS) -o $@
 
 clean:
